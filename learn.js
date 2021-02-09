@@ -1,3 +1,5 @@
+function inside (){
+
 var order = prompt("what do want meat or cheiken ?" ); 
 while (order !== "meat" && order !== "cheiken" )
 {
@@ -21,5 +23,7 @@ for (var i = 0; i<numofmeal; i++ )
     result = result +itemorder;
 }
 document.write( result  );
+}
+inside();
 
 
