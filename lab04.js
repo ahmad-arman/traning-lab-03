@@ -15,11 +15,11 @@ while (order !== 'website' && order !== 'web application')
 var itemorder = ' ';
 if (order == "website")
 {
-    itemorder = '<img src = "download (2).jpg " />';   
+    itemorder = '<img src = "/assets/download (2).jpg " />';   
 }
 else if (order == "web application")
 {
-itemorder = '<img src = "images.png "/>';
+itemorder = '<img src = "/assets/images.png "/>';
 }
 var numofpage = prompt("what is the number of page you need ?");
 var result ='';
